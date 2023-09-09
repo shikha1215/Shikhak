@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="custom.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.0.slim.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">PORTFOLIO</div>
+
+                <div class="menu">
+                    <a href="">Home</a>
+                    <a href="">About</a>
+                    <a href="">Skills</a>
+                    <a href="">Services</a>
+                    <a href="">Contact</a>
+                </div>
+            </nav>
+            <div class="text">
+                <p>Hello, I am</p>
+                <h1>Shikha Kumari</h1>
+                <p>And I am Front End Developer</p>
+                <button class="c-btn">Hire me</button>
+            </div>
+        </header>
+
+        <section id="about">
+            <div class="section-info">
+                <h1>About</h1>
+                <p>Who i am?</p>
+            </div>
+
+            <div class="about-row">
+                <div class="about-left-col">
+                    <img src="pic1.webp">
+                </div>
+                <div class="about-right-col">
+                    <p id="p-title">
+                        Hello, I am Shikha Kumari & i am a Youtuber
+                    </p>
+                    <p>
+                        My name is Shikha Kumari, and my portfolio is a representation of 
+                        all that I've learned and accomplished as a science and engineering student.
+                        It is a good idea to put your resume, bio and skills list near the beginning, and 
+                        then arrange other items according to what you think is most important.
+                    </p>
+                    <button class="c-btn">Download CV</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="section-info">
+                <h1 style="color: #fff;">Skill's</h1>
+            </div>
+
+            <div class="skills-row">
+                <div class="skills-left-col">
+                    <p>
+                        It is a combination of quantitative and qualitative data to showcase the 
+                        two key attributes that make a professional stand out in the job market - skills 
+                        and conscientiousness. A portfolio not only shows a professional's current skills but 
+                        it also shows her skills progression over time.
+                    </p>
+                    <button class="c-btn">Read more</button>
+                </div>
+                <div class="skills-right-col">
+                    <div class="progress-div">
+                        <P>
+                        <span>HTML</span><br>
+                        <progress value="80" max="100"></progress>
+                        <span>80%</span>
+                    </P>
+                    <P>
+                        <span>CSS</span><br>
+                        <progress value="80" max="90"></progress>
+                        <span>70%</span>
+                    </P>
+                    <P>
+                        <span>JAVASCRIPT</span><br>
+                        <progress value="80" max="100"></progress>
+                        <span>75%</span>
+                    </P>
+                    <P>
+                        <span>BOOTSTRAP</span><br>
+                        <progress value="80" max="95"></progress>
+                        <span>80%</span>
+                    </P>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="section-info">
+                <h1>Services</h1>
+                <p>What We Provide</p>
+            </div>
+            <div class="services-row">
+                <div class="services-box">
+                    <img src="photo1.jpg">
+                    <h2>Web Design</h2>
+                    <p>
+                        Web designing is the process of planning, conceptualizing, 
+                        and implementing the plan for designing a website in a way 
+                        that is functional and offers a good user experience.
+                    </p>
+                </div>
+                <div class="services-box">
+                    <img src="photo1.jpg">
+                    <h2>Web Developer</h2>
+                    <p>
+                        Web developers create and maintain websites. 
+                        They are also responsible for the site's technical 
+                        aspects, such as its performance and capacity.
+                    </p>
+                </div>
+                <div class="services-box">
+                    <img src="photo1.jpg">
+                    <h2>Apps Development</h2>
+                    <p>
+                        Application development is the process of planning, 
+                        designing, creating, testing, and deploying a software 
+                        application to perform various business operations.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="section-info" style="color: #fff;">
+                <h1>Get in Touch</h1>
+                <p style="color: black;">We are Available</p>
+            </div>
+            <div class="contact-row">
+                <div class="contact-left-col">
+                    <img src="images.png">
+                </div>
+                <div class="contact-right-col">
+                    <form>
+                        <h2>Connect with us</h2>
+                        <input type="text" name="" placeholder="Name">
+                        <input type="email" name="" placeholder="E-mail">
+                        <br>
+                        <textarea cols="40" rows="10" placeholder="Message"></textarea>
+                        <br>
+                        <button class="c-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="footer">
+            <h2>Developed by Shikha Kumari</h2>
+            <img src="photo4.jpg" width="150">
+        </section>
+
+        <script src="jquery.ripples-min.js"></script>
+
+        <script>
+            jQuery(document).ready(function(){
+                $('header').ripples({
+  dropRadius: 20,
+  perturbance: 0.03,
+
+});
+            });
+        </script>
+    </body>
+</html>
